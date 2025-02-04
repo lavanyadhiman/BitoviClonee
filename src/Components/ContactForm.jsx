@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 function ContactForm() {
   const [formData, setFormData] = useState({
     firstname: "",
@@ -120,7 +120,6 @@ function ContactForm() {
 </form>
 </div>
 
-{/* Background Images */}
 <div className="absolute inset-0 z-0 overflow-hidden">
 <img
 src="https://www.bitovi.com/hubfs/limbo-generated/imgs/vectors/bitdots-2b.svg"
