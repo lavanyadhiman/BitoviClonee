@@ -7,7 +7,6 @@ function Navbar({ setShowContactForm }) {
   const [buttonText, setButtonText] = useState("Contact");
 
   const handleClick = () => {
-    // Toggle the button text and form visibility
     if (buttonText === "Contact") {
       setButtonText("Close");
       setShowContactForm(true);
