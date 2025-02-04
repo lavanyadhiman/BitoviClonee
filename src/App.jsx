@@ -8,12 +8,11 @@ import ChatBot from './Components/ChatBot';
 import './app.css';
 
 function App() {
-  const [showContactForm, setShowContactForm] = useState(false); // Manage form visibility
-
+  const [showContactForm, setShowContactForm] = useState(false); 
   return (
     <>
-      <Navbar setShowContactForm={setShowContactForm} /> {/* Pass the function to Navbar */}
-      {showContactForm && <ContactForm setShowContactForm={setShowContactForm} />} {/* Conditionally render the form */}
+      <Navbar setShowContactForm={setShowContactForm} />
+      {showContactForm && <ContactForm setShowContactForm={setShowContactForm} />} 
       <Blogbg />
       <BlogArticle />
       <Footer />
